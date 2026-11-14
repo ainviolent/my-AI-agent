@@ -1,0 +1,8 @@
+Сообщений: 7
+system Помощник по Python
+user Вопрос 2
+assistant Ответ 2
+user Вопрос 3
+assistant Ответ 3
+user Вопрос 4
+assistant Ответ 4

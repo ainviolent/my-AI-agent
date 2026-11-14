@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.venv*/
+.cache/
+.vscode/
+__pycache__/
+*.pyc
+*.log
+!Практика/15 Ошибки и Pydantic/app.log
+chat_history.txt
+.DS_Store
+*.docx
+!/Закутный_Илья_Отчёт_УП01.docx

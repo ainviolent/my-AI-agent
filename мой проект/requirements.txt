@@ -1,0 +1,8 @@
+gigachat==0.2.3
+python-dotenv==1.2.4
+pydantic>=2.8,<3
+sentence-transformers==3.4.1
+transformers==4.46.3
+torch==2.2.2
+numpy==1.26.4
+huggingface-hub>=0.23,<1

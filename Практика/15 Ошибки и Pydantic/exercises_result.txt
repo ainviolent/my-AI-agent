@@ -1,0 +1,12 @@
+Задания 1–2. Обработка ошибки:
+Введите целое число. Тип ошибки: ValueError
+Задания 3–11: api_errors.py и logging_demo.py. Три уровня журнала:
+Задания 12–15:
+Учебник Python Учебный пример 2026
+Ошибка проверки: int_parsing
+Задания 16–19, 27–29: режимы студент, класс, тема, обращение в structured_output.py
+Задания 20–22, 30: final_day15.py, четыре поля и strict=True
+Пустой ввод не обращается к API:
+Введите учебный вопрос
+Исправления 23–26: двоеточия try/except; запятая после filename; поля category: str; response_format=AnalysisResult, strict=True
+Предсказания: True app.log 5

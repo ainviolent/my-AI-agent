@@ -1,0 +1,7 @@
+source,before,after,reduction_percent
+conditions.txt,892,823,7.74
+errors_files.txt,1128,1024,9.22
+functions.txt,983,902,8.24
+lists.txt,996,881,11.55
+loops.txt,925,856,7.46
+variables.txt,916,835,8.84
