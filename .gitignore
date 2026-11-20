@@ -12,3 +12,8 @@ chat_history.txt
 .DS_Store
 *.docx
 !/Закутный_Илья_Отчёт_УП01.docx
+
+.venv/
+venv/
+.pytest_cache/
+*.key
