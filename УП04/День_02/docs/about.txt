@@ -1,4 +1,0 @@
-This is my practice project on Ubuntu Server.
-I will create a small HTTP service and check it with curl.
-The app, docs, logs and backup folders store its files.
-

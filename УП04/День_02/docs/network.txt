@@ -1,6 +1,0 @@
-IP identifies a network interface: enp0s3 is 10.0.2.15/24.
-DNS converts names to IP addresses: 8.8.8.8 and 8.8.4.4.
-The gateway sends traffic to other networks: 10.0.2.2.
-Localhost means this machine: 127.0.0.1. HTTP uses port 80, HTTPS uses 443.
-VirtualBox NAT lets the VM use the host internet connection.
-
