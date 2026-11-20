@@ -11,7 +11,7 @@ python3 -m venv .venv
 ./.venv/bin/python -m pip install torch==2.2.2 --index-url https://download.pytorch.org/whl/cpu
 ./.venv/bin/python -m pip install -r requirements.txt
 ./.venv/bin/python -m pip check
-cp -n .env.example .env
+if [ ! -e .env ]; then cp .env.example .env; fi
 ```
 
 ## Установка в Windows
@@ -43,6 +43,18 @@ Windows:
 ```
 
 Попробуйте ввести «Что такое список в Python?» или «Как работает цикл for в Python?». Команда `история` показывает роли сообщений, `очистить` сбрасывает контекст текущего диалога, `выход` завершает программу. При пустом вводе программа просит ввести запрос. Просьба проверить код без фрагмента вызывает уточнение.
+
+## Запуск с готовым кэшем MiniLM
+
+Если MiniLM уже скачана, можно указать папку кэша Hugging Face и отключить запросы к Hugging Face. Например, в учебной ВМ с сохранённым проектом третьего дня:
+
+```bash
+export HF_HOME="$HOME/AI-Practice/УП01/AI-Agent/.cache/huggingface"
+export HF_HUB_OFFLINE=1
+./.venv/bin/python main.py
+```
+
+Если модели в кэше нет, для первой загрузки нужен интернет. Без ключа GigaChat можно проверить запуск, пустой ввод, выход и сообщение об ошибке. Чтобы проверить ответы, укажите действующий ключ и тип доступа в локальном `.env`.
 
 ## Ограничения
 
